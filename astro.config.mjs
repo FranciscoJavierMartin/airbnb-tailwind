@@ -5,4 +5,6 @@ import tailwind from '@astrojs/tailwind';
 // https://astro.build/config
 export default defineConfig({
   integrations: [alpinejs(), tailwind()],
+  site: 'https://franciscojaviermartin.github.io',
+  base: 'airbnb-tailwind',
 });
